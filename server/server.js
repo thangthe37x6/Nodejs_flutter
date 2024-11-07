@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import sqlite3 from 'sqlite3';
 import bcrypt from 'bcrypt';
-
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
